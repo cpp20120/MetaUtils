@@ -18,5 +18,4 @@
 
 ## At this moment not ready for production use
 
-Need to do a unified api and more features at some parts.Also until have no test.(will be done at future)
-
+I need to create a unified API and add more features to certain parts. Additionally, I do not have any tests at this time (but I will be conducting them in the future).
