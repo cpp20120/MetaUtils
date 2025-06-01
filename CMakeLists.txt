@@ -1,10 +1,10 @@
 # Main CMakeLists.txt
 cmake_minimum_required(VERSION 3.26)
 project(
-  TEST_PROJECT
+  MetaUtils
   LANGUAGES CXX
   VERSION 1.0.0
-  DESCRIPTION "Test Project")
+  DESCRIPTION "Meta Programming Utils")
 
 # Include additional configurations
 
