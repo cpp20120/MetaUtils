@@ -1,5 +1,10 @@
 #pragma once
-
+/**
+* TODO iterator_category and difference_type for unified_iterator
+* TODO Validation for step_ and count_
+* TODO Support for operator-- and biderectional_iterator
+* TODO Concept std::ranges::input_range for unified_view_fn
+*/
 #include <iostream>
 #include <ranges>
 #include <type_traits>
