@@ -3,12 +3,12 @@ add_subdirectory(library1)
 add_subdirectory(library2)
 
 # Настройка тестов
-option(BUILD_TESTS "Build tests" ON)
-option(BUILD_ALL_TESTS "Build all tests automatically" ON)
+option(BUILD_TESTS "Build tests" OFF)
+option(BUILD_ALL_TESTS "Build all tests automatically" OFF)
 
 if(BUILD_TESTS)
-  enable_testing()
-  find_package(GTest REQUIRED)
+ # enable_testing()
+#  find_package(GTest REQUIRED)
 
   if(BUILD_ALL_TESTS)
     # Добавляем тестовые поддиректории

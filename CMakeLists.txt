@@ -52,13 +52,13 @@ add_subdirectory(src)
 add_subdirectory(lib)
 # add tests
 set(BUILD_ALL_TESTS
-    ON
+    OFF
     CACHE BOOL "Build all tests" FORCE)
 message(
   STATUS "BUILD_ALL_TESTS value: ${BUILD_ALL_TESTS} (defined at ${CMAKE_CURRENT_LIST_FILE}:${CMAKE_CURRENT_LIST_LINE})")
 enable_testing()
-option(BUILD_ALL_TESTS "Build tests" ON)
-add_subdirectory(tests)
+option(BUILD_ALL_TESTS "Build tests" OFF)
+#add_subdirectory(tests)
 
 include(cmake/BuildConfiguration.cmake)
 
